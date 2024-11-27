@@ -1,0 +1,54 @@
+:root {
+  --background-gradient: linear-gradient(180deg, #8a56d3, #4a3fa4, #1b173b);
+  --text-color: #ffffff;
+  --button-color: #c28efb;
+  --button-hover: #a672f4;
+  --border-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-gradient);
+  color: var(--text-color);
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background: var(--button-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+select:hover {
+  background: var(--button-hover);
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}
